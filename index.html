@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <title>Quiz futuro do futebol</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <div id="tela-inicial" class="container tela">
+        <h1>Qual seria sua posição em um time de futebol</h1>
+        <p>Você foi chamado para jogar em um time e tem que escolher qual a posição que você quer jogar, então este quiz ira te ajudar.</p>
+        <button id="btn-iniciar">Descobrir meu futuro</button>
+    </div>
+
+    <div id="tela-quiz" class="container tela" style="display: none;">
+        <p id="contador-pergunta"></p>
+        <h2 id="texto-pergunta"></h2>
+        <div id="opcoes-container"></div>
+    </div>
+
+    <div id="tela-resultado" class="container tela" style="display: none;">
+        <h1>Sua posição é:</h1>
+        <h2 id="nome-personagem"></h2>
+        <img id="imagem-personagem" src="" alt="Imagem do Personagem">
+        <p id="pontos-personagem"></p>
+        <p id="descricao-personagem"></p>
+        <button id="btn-recomecar">Recomeçar</button>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
